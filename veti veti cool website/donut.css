@@ -1,0 +1,47 @@
+body{
+    font-family: sans-serif;
+}
+.background-image{
+    background-image: url("download\ \(16\).jfif");
+    min-height: 400px;
+    background-size: 500px;
+    background-attachment: fixed;
+}
+.jjj{
+    width:40px;
+    padding-bottom: 5px;
+    height: 45px;
+}
+.service{
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}.service .fas{
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.service:hover{
+    background-color: rgb(24, 182, 255);
+    color: #ffffff;
+    border:0px;
+}
+img{
+    height:300px;
+}
+.footer{
+    background-color: #C0D5FE;
+    padding:40px;
+}
+.footer a{
+    text-decoration: none;
+}
+.card-text{
+    text-size-adjust: 20px;
+}
+.card-title{
+    text-transform: capitalize;
+}
